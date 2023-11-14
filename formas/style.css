@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    display: flex;
+    border-color: tomato;
+}
+
+.item {
+    height: 150px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+}
+
+.texto {
+    color: white;
+    font-size: 64px;
+
+}
+
+.forma {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.circulo {
+    border-radius: 50%;
+
+}
+
+.Animacao {
+    transform: rotate(90deg);
+    background-color: blueviolet;
+    
+
+
+}
+
+.Azul {
+    background-color: blue;
+    transform: scale(-1, 0.5 );
+}
+
+.Matriz {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    background-color: chartreuse;
+
+}
+.Animacao2{
+    transform: translate(120px, 50%);
+    background-color: coral;
+    transform: scale(0.5) translate(-100%)
+}
+
+
