@@ -58,4 +58,15 @@
     white-space: nowrap;
     font-size: inherit;
     padding-inline: 8px;
+    gap: 8px;
+}
+
+.numeros span{
+    background-color: gold;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
